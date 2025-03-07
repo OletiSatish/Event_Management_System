@@ -2,7 +2,7 @@ pipeline {
     agent any
 
     environment {
-        IMAGE_NAME = "osk/html-webpage"
+        IMAGE_NAME = "satishosk/html-webpage"
         CONTAINER_NAME = "html-webpage-container"
         GITHUB_REPO = "https://github.com/OletiSatish/Event_Management_System.git"
     }
